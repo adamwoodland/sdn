@@ -1,0 +1,583 @@
+2018-06-19T01:52:56.689Z|00001|vlog|INFO|opened log file ovsdpctl.log
+2018-06-19T01:55:19.603Z|00001|vlog|INFO|opened log file ./ovsdpctl.log
+2018-06-19T01:55:48.525Z|00001|vlog|INFO|opened log file ovsdpctl.log
+2018-06-19T01:55:48.525Z|00002|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:17, type=26(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2553965190
+2018-06-19T01:55:48.525Z|00003|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:52, type=24(family-defined), flags=2[MULTI], seq=1, pid=2553965190
+2018-06-19T01:55:48.526Z|00004|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:40, type=16(control), flags=1[REQUEST], seq=1, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.526Z|00005|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:192, type=16(control), flags=0, seq=1, pid=7648,genl(cmd=1,version=2)
+2018-06-19T01:55:48.526Z|00006|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=16(control), flags=1[REQUEST], seq=1, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.526Z|00007|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:184, type=16(control), flags=0, seq=1, pid=7648,genl(cmd=1,version=2)
+2018-06-19T01:55:48.526Z|00008|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=16(control), flags=1[REQUEST], seq=1, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.526Z|00009|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:184, type=16(control), flags=0, seq=1, pid=7648,genl(cmd=1,version=2)
+2018-06-19T01:55:48.526Z|00010|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=16(control), flags=1[REQUEST], seq=1, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.526Z|00011|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:92, type=16(control), flags=0, seq=1, pid=7648,genl(cmd=1,version=2)
+2018-06-19T01:55:48.526Z|00012|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=16(control), flags=1[REQUEST], seq=1, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.526Z|00013|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:184, type=16(control), flags=0, seq=1, pid=7648,genl(cmd=1,version=2)
+2018-06-19T01:55:48.526Z|00014|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:52, type=18(family-defined), flags=1[REQUEST], seq=1, pid=3038934293
+2018-06-19T01:55:48.526Z|00015|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:72, type=2(error), flags=0, seq=1, pid=3038934293 error(-19(No such device), in-reply-to(nl(len:52, type=18(family-defined), flags=1[REQUEST], seq=1, pid=3038934293))
+2018-06-19T01:55:48.526Z|00016|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.560Z|00017|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:104, type=16(family-defined), flags=405[REQUEST][ACK][ATOMIC], seq=2, pid=3038934293
+2018-06-19T01:55:48.560Z|00018|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:124, type=2(error), flags=0, seq=2, pid=3038934293 error(-97(Address family not supported by protocol), in-reply-to(nl(len:104, type=16(family-defined), flags=405[REQUEST][ACK][ATOMIC], seq=2, pid=3038934293))
+2018-06-19T01:55:48.560Z|00019|netlink_socket|DBG|received NAK error=0 (Address family not supported by protocol)
+2018-06-19T01:55:48.561Z|00020|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=1, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.561Z|00021|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:56, type=2(error), flags=0, seq=1, pid=7648 error(-19(No such device), in-reply-to(nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=1, pid=7648))
+2018-06-19T01:55:48.561Z|00022|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.561Z|00023|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=2, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.561Z|00024|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:56, type=2(error), flags=0, seq=2, pid=7648 error(-19(No such device), in-reply-to(nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=2, pid=7648))
+2018-06-19T01:55:48.561Z|00025|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.561Z|00026|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=3, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.561Z|00027|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:56, type=2(error), flags=0, seq=3, pid=7648 error(-19(No such device), in-reply-to(nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=3, pid=7648))
+2018-06-19T01:55:48.561Z|00028|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.561Z|00029|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=4, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.561Z|00030|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:56, type=2(error), flags=0, seq=4, pid=7648 error(-19(No such device), in-reply-to(nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=4, pid=7648))
+2018-06-19T01:55:48.561Z|00031|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.561Z|00032|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=3, pid=3038934293
+2018-06-19T01:55:48.561Z|00033|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:612, type=16(family-defined), flags=0, seq=3, pid=3038934293
+2018-06-19T01:55:48.561Z|00034|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=5, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.561Z|00035|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:56, type=2(error), flags=0, seq=5, pid=7648 error(-19(No such device), in-reply-to(nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=5, pid=7648))
+2018-06-19T01:55:48.561Z|00036|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.561Z|00037|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=6, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.562Z|00038|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:52, type=2(error), flags=0, seq=6, pid=7648 error(-19(No such device), in-reply-to(nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=6, pid=7648))
+2018-06-19T01:55:48.562Z|00039|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.562Z|00040|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=7, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.562Z|00041|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:52, type=2(error), flags=0, seq=7, pid=7648 error(-19(No such device), in-reply-to(nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=7, pid=7648))
+2018-06-19T01:55:48.562Z|00042|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.562Z|00043|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=8, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.562Z|00044|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:52, type=2(error), flags=0, seq=8, pid=7648 error(-19(No such device), in-reply-to(nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=8, pid=7648))
+2018-06-19T01:55:48.562Z|00045|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.562Z|00046|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:40, type=18(family-defined), flags=1[REQUEST], seq=4, pid=3038934293
+2018-06-19T01:55:48.562Z|00047|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:604, type=16(family-defined), flags=0, seq=4, pid=3038934293
+2018-06-19T01:55:48.562Z|00048|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=9, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.562Z|00049|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:52, type=2(error), flags=0, seq=9, pid=7648 error(-19(No such device), in-reply-to(nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=9, pid=7648))
+2018-06-19T01:55:48.562Z|00050|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.562Z|00051|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=a, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.562Z|00052|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:52, type=2(error), flags=0, seq=a, pid=7648 error(-19(No such device), in-reply-to(nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=a, pid=7648))
+2018-06-19T01:55:48.562Z|00053|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.562Z|00054|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=b, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.562Z|00055|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:52, type=2(error), flags=0, seq=b, pid=7648 error(-19(No such device), in-reply-to(nl(len:32, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=b, pid=7648))
+2018-06-19T01:55:48.562Z|00056|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.562Z|00057|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:40, type=18(family-defined), flags=1[REQUEST], seq=5, pid=3038934293
+2018-06-19T01:55:48.562Z|00058|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:604, type=16(family-defined), flags=0, seq=5, pid=3038934293
+2018-06-19T01:55:48.562Z|00059|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=c, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.562Z|00060|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:56, type=2(error), flags=0, seq=c, pid=7648 error(-19(No such device), in-reply-to(nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=c, pid=7648))
+2018-06-19T01:55:48.562Z|00061|netlink_socket|DBG|received NAK error=0 (No such device)
+2018-06-19T01:55:48.563Z|00062|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2553965190 done(0)
+2018-06-19T01:55:48.563Z|00063|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:24, type=26(ovs_datapath), flags=30d[REQUEST][ACK][ECHO][DUMP], seq=d, pid=7648,genl(cmd=3,version=2)
+2018-06-19T01:55:48.564Z|00064|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:120, type=26(ovs_datapath), flags=2[MULTI], seq=d, pid=7648,genl(cmd=1,version=2)
+2018-06-19T01:55:48.564Z|00065|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=d, pid=7648 done(0)
+2018-06-19T01:55:48.564Z|00066|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:48, type=26(ovs_datapath), flags=9[REQUEST][ECHO], seq=e, pid=7648,genl(cmd=4,version=2)
+2018-06-19T01:55:48.564Z|00067|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:120, type=26(ovs_datapath), flags=0, seq=e, pid=7648,genl(cmd=1,version=2)
+2018-06-19T01:55:48.565Z|00068|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:24, type=27(ovs_vport), flags=30d[REQUEST][ACK][ECHO][DUMP], seq=f, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.565Z|00069|dpif|DBG|system@ovs-system: port_dump_start success
+2018-06-19T01:55:48.565Z|00070|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:140, type=27(ovs_vport), flags=2[MULTI], seq=f, pid=7648,genl(cmd=1,version=1)
+2018-06-19T01:55:48.566Z|00071|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.566Z|00072|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.566Z|00073|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.567Z|00074|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.567Z|00075|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.568Z|00076|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.568Z|00077|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.569Z|00078|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.569Z|00079|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.570Z|00080|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.570Z|00081|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.570Z|00082|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.570Z|00083|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=1, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.571Z|00084|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=1, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.571Z|00085|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=2, pid=2553965190
+2018-06-19T01:55:48.571Z|00086|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:668, type=16(family-defined), flags=0, seq=2, pid=2553965190
+2018-06-19T01:55:48.572Z|00087|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.572Z|00088|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=2, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.572Z|00089|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=2, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.572Z|00090|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=3, pid=2553965190
+2018-06-19T01:55:48.572Z|00091|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=3, pid=2553965190
+2018-06-19T01:55:48.572Z|00092|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.572Z|00093|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=3, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.572Z|00094|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=3, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.572Z|00095|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=4, pid=2553965190
+2018-06-19T01:55:48.573Z|00096|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=4, pid=2553965190
+2018-06-19T01:55:48.573Z|00097|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.573Z|00098|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=4, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.573Z|00099|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=4, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.573Z|00100|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=5, pid=2553965190
+2018-06-19T01:55:48.573Z|00101|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=5, pid=2553965190
+2018-06-19T01:55:48.573Z|00102|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.573Z|00103|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=5, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.573Z|00104|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=5, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.573Z|00105|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=6, pid=2553965190
+2018-06-19T01:55:48.573Z|00106|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=6, pid=2553965190
+2018-06-19T01:55:48.573Z|00107|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.573Z|00108|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=6, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.574Z|00109|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=6, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.574Z|00110|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=7, pid=2553965190
+2018-06-19T01:55:48.574Z|00111|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=7, pid=2553965190
+2018-06-19T01:55:48.574Z|00112|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.574Z|00113|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=7, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.574Z|00114|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=7, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.574Z|00115|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=8, pid=2553965190
+2018-06-19T01:55:48.574Z|00116|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=8, pid=2553965190
+2018-06-19T01:55:48.574Z|00117|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.574Z|00118|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=8, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.574Z|00119|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=8, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.574Z|00120|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=9, pid=2553965190
+2018-06-19T01:55:48.574Z|00121|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=9, pid=2553965190
+2018-06-19T01:55:48.575Z|00122|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.575Z|00123|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=9, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.575Z|00124|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=9, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.575Z|00125|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=a, pid=2553965190
+2018-06-19T01:55:48.575Z|00126|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=a, pid=2553965190
+2018-06-19T01:55:48.575Z|00127|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.575Z|00128|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=a, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.575Z|00129|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=a, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.575Z|00130|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=b, pid=2553965190
+2018-06-19T01:55:48.575Z|00131|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=b, pid=2553965190
+2018-06-19T01:55:48.575Z|00132|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.575Z|00133|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=b, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.575Z|00134|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=b, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.575Z|00135|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=c, pid=2553965190
+2018-06-19T01:55:48.576Z|00136|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:668, type=16(family-defined), flags=0, seq=c, pid=2553965190
+2018-06-19T01:55:48.576Z|00137|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.576Z|00138|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=c, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.576Z|00139|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=c, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.576Z|00140|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=d, pid=2553965190
+2018-06-19T01:55:48.576Z|00141|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=d, pid=2553965190
+2018-06-19T01:55:48.576Z|00142|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.576Z|00143|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=d, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.576Z|00144|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=d, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.576Z|00145|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=e, pid=2553965190
+2018-06-19T01:55:48.576Z|00146|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=e, pid=2553965190
+2018-06-19T01:55:48.576Z|00147|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.577Z|00148|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=e, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.577Z|00149|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=e, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.577Z|00150|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=f, pid=2553965190
+2018-06-19T01:55:48.577Z|00151|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=f, pid=2553965190
+2018-06-19T01:55:48.577Z|00152|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.577Z|00153|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=f, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.577Z|00154|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=f, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.577Z|00155|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=10, pid=2553965190
+2018-06-19T01:55:48.577Z|00156|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=10, pid=2553965190
+2018-06-19T01:55:48.577Z|00157|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.577Z|00158|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=10, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.577Z|00159|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=10, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.578Z|00160|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=11, pid=2553965190
+2018-06-19T01:55:48.578Z|00161|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=11, pid=2553965190
+2018-06-19T01:55:48.578Z|00162|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.578Z|00163|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=11, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.578Z|00164|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=11, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.578Z|00165|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=12, pid=2553965190
+2018-06-19T01:55:48.578Z|00166|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=12, pid=2553965190
+2018-06-19T01:55:48.578Z|00167|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.578Z|00168|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=12, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.578Z|00169|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=12, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.578Z|00170|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=13, pid=2553965190
+2018-06-19T01:55:48.578Z|00171|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=13, pid=2553965190
+2018-06-19T01:55:48.579Z|00172|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.579Z|00173|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=13, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.579Z|00174|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=13, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.579Z|00175|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=14, pid=2553965190
+2018-06-19T01:55:48.579Z|00176|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=14, pid=2553965190
+2018-06-19T01:55:48.579Z|00177|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.579Z|00178|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=14, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.579Z|00179|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=14, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.579Z|00180|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=15, pid=2553965190
+2018-06-19T01:55:48.579Z|00181|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:668, type=16(family-defined), flags=0, seq=15, pid=2553965190
+2018-06-19T01:55:48.579Z|00182|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.579Z|00183|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=15, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.579Z|00184|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=15, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.580Z|00185|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=16, pid=2553965190
+2018-06-19T01:55:48.580Z|00186|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=16, pid=2553965190
+2018-06-19T01:55:48.580Z|00187|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.580Z|00188|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=16, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.580Z|00189|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=16, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.580Z|00190|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=17, pid=2553965190
+2018-06-19T01:55:48.580Z|00191|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=17, pid=2553965190
+2018-06-19T01:55:48.580Z|00192|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.580Z|00193|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=17, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.580Z|00194|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=17, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.581Z|00195|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=18, pid=2553965190
+2018-06-19T01:55:48.581Z|00196|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=18, pid=2553965190
+2018-06-19T01:55:48.581Z|00197|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.581Z|00198|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:40, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=18, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.581Z|00199|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:140, type=27(ovs_vport), flags=0, seq=18, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.581Z|00200|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:48, type=18(family-defined), flags=1[REQUEST], seq=19, pid=2553965190
+2018-06-19T01:55:48.581Z|00201|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:656, type=16(family-defined), flags=0, seq=19, pid=2553965190
+2018-06-19T01:55:48.581Z|00202|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.581Z|00203|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=19, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.581Z|00204|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=19, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.581Z|00205|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=1a, pid=2553965190
+2018-06-19T01:55:48.581Z|00206|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=1a, pid=2553965190
+2018-06-19T01:55:48.582Z|00207|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.582Z|00208|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=1a, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.582Z|00209|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=1a, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.582Z|00210|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=1b, pid=2553965190
+2018-06-19T01:55:48.582Z|00211|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:668, type=16(family-defined), flags=0, seq=1b, pid=2553965190
+2018-06-19T01:55:48.582Z|00212|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.582Z|00213|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=1b, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.582Z|00214|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=1b, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.582Z|00215|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=1c, pid=2553965190
+2018-06-19T01:55:48.582Z|00216|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=1c, pid=2553965190
+2018-06-19T01:55:48.582Z|00217|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.582Z|00218|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=1c, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.583Z|00219|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=1c, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.583Z|00220|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=1d, pid=2553965190
+2018-06-19T01:55:48.583Z|00221|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=1d, pid=2553965190
+2018-06-19T01:55:48.583Z|00222|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.583Z|00223|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=1d, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.583Z|00224|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=1d, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.583Z|00225|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=1e, pid=2553965190
+2018-06-19T01:55:48.583Z|00226|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:668, type=16(family-defined), flags=0, seq=1e, pid=2553965190
+2018-06-19T01:55:48.583Z|00227|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.583Z|00228|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=1e, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.583Z|00229|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=1e, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.583Z|00230|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=1f, pid=2553965190
+2018-06-19T01:55:48.583Z|00231|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=1f, pid=2553965190
+2018-06-19T01:55:48.584Z|00232|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.584Z|00233|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=1f, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.584Z|00234|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=1f, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.584Z|00235|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=20, pid=2553965190
+2018-06-19T01:55:48.584Z|00236|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=20, pid=2553965190
+2018-06-19T01:55:48.584Z|00237|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.584Z|00238|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=20, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.584Z|00239|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=20, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.584Z|00240|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=21, pid=2553965190
+2018-06-19T01:55:48.584Z|00241|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=21, pid=2553965190
+2018-06-19T01:55:48.584Z|00242|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.585Z|00243|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:40, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=21, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.585Z|00244|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:140, type=27(ovs_vport), flags=0, seq=21, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.585Z|00245|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:48, type=18(family-defined), flags=1[REQUEST], seq=22, pid=2553965190
+2018-06-19T01:55:48.585Z|00246|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:656, type=16(family-defined), flags=0, seq=22, pid=2553965190
+2018-06-19T01:55:48.585Z|00247|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.585Z|00248|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:40, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=22, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.585Z|00249|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:140, type=27(ovs_vport), flags=0, seq=22, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.585Z|00250|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:48, type=18(family-defined), flags=1[REQUEST], seq=23, pid=2553965190
+2018-06-19T01:55:48.585Z|00251|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:656, type=16(family-defined), flags=0, seq=23, pid=2553965190
+2018-06-19T01:55:48.585Z|00252|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.585Z|00253|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=23, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.585Z|00254|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=23, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.586Z|00255|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=24, pid=2553965190
+2018-06-19T01:55:48.586Z|00256|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=24, pid=2553965190
+2018-06-19T01:55:48.586Z|00257|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.586Z|00258|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=24, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.586Z|00259|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=24, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.586Z|00260|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=25, pid=2553965190
+2018-06-19T01:55:48.586Z|00261|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=25, pid=2553965190
+2018-06-19T01:55:48.586Z|00262|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.586Z|00263|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=25, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.586Z|00264|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=25, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.586Z|00265|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=26, pid=2553965190
+2018-06-19T01:55:48.586Z|00266|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=26, pid=2553965190
+2018-06-19T01:55:48.586Z|00267|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.586Z|00268|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=26, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.586Z|00269|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=26, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.587Z|00270|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=27, pid=2553965190
+2018-06-19T01:55:48.587Z|00271|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:668, type=16(family-defined), flags=0, seq=27, pid=2553965190
+2018-06-19T01:55:48.587Z|00272|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.587Z|00273|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=27, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.587Z|00274|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=27, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.587Z|00275|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=28, pid=2553965190
+2018-06-19T01:55:48.587Z|00276|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:668, type=16(family-defined), flags=0, seq=28, pid=2553965190
+2018-06-19T01:55:48.587Z|00277|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.587Z|00278|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=28, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.587Z|00279|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=28, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.587Z|00280|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=29, pid=2553965190
+2018-06-19T01:55:48.587Z|00281|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=29, pid=2553965190
+2018-06-19T01:55:48.587Z|00282|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.587Z|00283|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=29, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.587Z|00284|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=29, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.587Z|00285|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=2a, pid=2553965190
+2018-06-19T01:55:48.587Z|00286|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=2a, pid=2553965190
+2018-06-19T01:55:48.588Z|00287|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.588Z|00288|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=2a, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.588Z|00289|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=2a, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.588Z|00290|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=2b, pid=2553965190
+2018-06-19T01:55:48.588Z|00291|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:668, type=16(family-defined), flags=0, seq=2b, pid=2553965190
+2018-06-19T01:55:48.588Z|00292|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.588Z|00293|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=2b, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.588Z|00294|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=2b, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.588Z|00295|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=2c, pid=2553965190
+2018-06-19T01:55:48.588Z|00296|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=2c, pid=2553965190
+2018-06-19T01:55:48.588Z|00297|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.588Z|00298|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=2c, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.588Z|00299|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=2c, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.588Z|00300|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=2d, pid=2553965190
+2018-06-19T01:55:48.589Z|00301|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=2d, pid=2553965190
+2018-06-19T01:55:48.589Z|00302|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.589Z|00303|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=2d, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.589Z|00304|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=2d, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.589Z|00305|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=2e, pid=2553965190
+2018-06-19T01:55:48.589Z|00306|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:668, type=16(family-defined), flags=0, seq=2e, pid=2553965190
+2018-06-19T01:55:48.589Z|00307|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.589Z|00308|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=2e, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.589Z|00309|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=2e, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.589Z|00310|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=2f, pid=2553965190
+2018-06-19T01:55:48.589Z|00311|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=2f, pid=2553965190
+2018-06-19T01:55:48.590Z|00312|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.590Z|00313|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=2f, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.590Z|00314|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=2f, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.590Z|00315|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=30, pid=2553965190
+2018-06-19T01:55:48.590Z|00316|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=30, pid=2553965190
+2018-06-19T01:55:48.590Z|00317|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.590Z|00318|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:40, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=30, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.590Z|00319|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:140, type=27(ovs_vport), flags=0, seq=30, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.590Z|00320|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:48, type=18(family-defined), flags=1[REQUEST], seq=31, pid=2553965190
+2018-06-19T01:55:48.590Z|00321|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:656, type=16(family-defined), flags=0, seq=31, pid=2553965190
+2018-06-19T01:55:48.591Z|00322|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.591Z|00323|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:36, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=31, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.591Z|00324|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:136, type=27(ovs_vport), flags=0, seq=31, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.591Z|00325|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:44, type=18(family-defined), flags=1[REQUEST], seq=32, pid=2553965190
+2018-06-19T01:55:48.591Z|00326|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:652, type=16(family-defined), flags=0, seq=32, pid=2553965190
+2018-06-19T01:55:48.591Z|00327|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.591Z|00328|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:40, type=27(ovs_vport), flags=9[REQUEST][ECHO], seq=32, pid=2726633328,genl(cmd=3,version=1)
+2018-06-19T01:55:48.591Z|00329|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:140, type=27(ovs_vport), flags=0, seq=32, pid=2726633328,genl(cmd=1,version=1)
+2018-06-19T01:55:48.592Z|00330|netlink_socket|DBG|nl_sock_transact_multiple__ (Success): nl(len:48, type=18(family-defined), flags=1[REQUEST], seq=33, pid=2553965190
+2018-06-19T01:55:48.592Z|00331|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:672, type=16(family-defined), flags=0, seq=33, pid=2553965190
+2018-06-19T01:55:48.592Z|00332|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=f, pid=7648 done(0)
+2018-06-19T01:55:48.592Z|00333|dpif|DBG|system@ovs-system: dumped all ports
+2018-06-19T01:55:48.592Z|00334|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:24, type=28(ovs_flow), flags=305[REQUEST][ACK][DUMP], seq=10, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.592Z|00335|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=34, pid=2553965190
+2018-06-19T01:55:48.593Z|00336|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=6, pid=3038934293
+2018-06-19T01:55:48.593Z|00337|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2627397061
+2018-06-19T01:55:48.593Z|00338|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3340761592
+2018-06-19T01:55:48.593Z|00339|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3972492176
+2018-06-19T01:55:48.593Z|00340|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2933035338
+2018-06-19T01:55:48.594Z|00341|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2930588571
+2018-06-19T01:55:48.594Z|00342|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3507410991
+2018-06-19T01:55:48.594Z|00343|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3023261906
+2018-06-19T01:55:48.594Z|00344|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=4090431373
+2018-06-19T01:55:48.594Z|00345|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2216335204
+2018-06-19T01:55:48.594Z|00346|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2153350435
+2018-06-19T01:55:48.594Z|00347|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3293388643
+2018-06-19T01:55:48.594Z|00348|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2345256865
+2018-06-19T01:55:48.595Z|00349|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2180197820
+2018-06-19T01:55:48.595Z|00350|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3788525012
+2018-06-19T01:55:48.595Z|00351|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3144336936
+2018-06-19T01:55:48.595Z|00352|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3257004203
+2018-06-19T01:55:48.595Z|00353|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2525730022
+2018-06-19T01:55:48.595Z|00354|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2689670386
+2018-06-19T01:55:48.595Z|00355|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3629913575
+2018-06-19T01:55:48.596Z|00356|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3651753416
+2018-06-19T01:55:48.596Z|00357|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3909133024
+2018-06-19T01:55:48.596Z|00358|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3897761361
+2018-06-19T01:55:48.596Z|00359|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=4047089409
+2018-06-19T01:55:48.596Z|00360|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3014988202
+2018-06-19T01:55:48.596Z|00361|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3900301222
+2018-06-19T01:55:48.596Z|00362|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=4237634223
+2018-06-19T01:55:48.596Z|00363|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3786335249
+2018-06-19T01:55:48.597Z|00364|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2566269087
+2018-06-19T01:55:48.597Z|00365|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2777194845
+2018-06-19T01:55:48.597Z|00366|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2879400940
+2018-06-19T01:55:48.597Z|00367|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2257731847
+2018-06-19T01:55:48.597Z|00368|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2252217513
+2018-06-19T01:55:48.597Z|00369|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3866365765
+2018-06-19T01:55:48.597Z|00370|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3245237383
+2018-06-19T01:55:48.597Z|00371|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2174683835
+2018-06-19T01:55:48.597Z|00372|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2833311793
+2018-06-19T01:55:48.597Z|00373|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2892384157
+2018-06-19T01:55:48.597Z|00374|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3089999839
+2018-06-19T01:55:48.598Z|00375|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3612471114
+2018-06-19T01:55:48.598Z|00376|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3498115172
+2018-06-19T01:55:48.598Z|00377|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2182272681
+2018-06-19T01:55:48.598Z|00378|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3877344665
+2018-06-19T01:55:48.598Z|00379|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3204003191
+2018-06-19T01:55:48.598Z|00380|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3949288233
+2018-06-19T01:55:48.598Z|00381|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3930407448
+2018-06-19T01:55:48.598Z|00382|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3883786890
+2018-06-19T01:55:48.598Z|00383|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=2997178070
+2018-06-19T01:55:48.598Z|00384|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:36, type=46(family-defined), flags=305[REQUEST][ACK][DUMP], seq=1, pid=3293819769
+2018-06-19T01:55:48.598Z|00385|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=34, pid=2553965190 done(0)
+2018-06-19T01:55:48.598Z|00386|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=6, pid=3038934293 done(0)
+2018-06-19T01:55:48.599Z|00387|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2627397061 done(0)
+2018-06-19T01:55:48.599Z|00388|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3340761592 done(0)
+2018-06-19T01:55:48.599Z|00389|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3972492176 done(0)
+2018-06-19T01:55:48.599Z|00390|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2933035338 done(0)
+2018-06-19T01:55:48.599Z|00391|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2930588571 done(0)
+2018-06-19T01:55:48.599Z|00392|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3507410991 done(0)
+2018-06-19T01:55:48.599Z|00393|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3023261906 done(0)
+2018-06-19T01:55:48.599Z|00394|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=4090431373 done(0)
+2018-06-19T01:55:48.599Z|00395|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2216335204 done(0)
+2018-06-19T01:55:48.599Z|00396|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2153350435 done(0)
+2018-06-19T01:55:48.599Z|00397|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3293388643 done(0)
+2018-06-19T01:55:48.599Z|00398|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2345256865 done(0)
+2018-06-19T01:55:48.599Z|00399|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2180197820 done(0)
+2018-06-19T01:55:48.599Z|00400|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3788525012 done(0)
+2018-06-19T01:55:48.599Z|00401|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3144336936 done(0)
+2018-06-19T01:55:48.600Z|00402|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3257004203 done(0)
+2018-06-19T01:55:48.600Z|00403|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2525730022 done(0)
+2018-06-19T01:55:48.600Z|00404|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2689670386 done(0)
+2018-06-19T01:55:48.600Z|00405|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3629913575 done(0)
+2018-06-19T01:55:48.600Z|00406|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3651753416 done(0)
+2018-06-19T01:55:48.600Z|00407|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3909133024 done(0)
+2018-06-19T01:55:48.600Z|00408|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3897761361 done(0)
+2018-06-19T01:55:48.600Z|00409|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=4047089409 done(0)
+2018-06-19T01:55:48.600Z|00410|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3014988202 done(0)
+2018-06-19T01:55:48.600Z|00411|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3900301222 done(0)
+2018-06-19T01:55:48.600Z|00412|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=4237634223 done(0)
+2018-06-19T01:55:48.600Z|00413|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3786335249 done(0)
+2018-06-19T01:55:48.600Z|00414|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2566269087 done(0)
+2018-06-19T01:55:48.600Z|00415|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2777194845 done(0)
+2018-06-19T01:55:48.601Z|00416|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2879400940 done(0)
+2018-06-19T01:55:48.601Z|00417|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2257731847 done(0)
+2018-06-19T01:55:48.601Z|00418|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2252217513 done(0)
+2018-06-19T01:55:48.601Z|00419|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3866365765 done(0)
+2018-06-19T01:55:48.601Z|00420|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3245237383 done(0)
+2018-06-19T01:55:48.601Z|00421|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2174683835 done(0)
+2018-06-19T01:55:48.601Z|00422|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2833311793 done(0)
+2018-06-19T01:55:48.601Z|00423|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2892384157 done(0)
+2018-06-19T01:55:48.601Z|00424|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3089999839 done(0)
+2018-06-19T01:55:48.601Z|00425|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3612471114 done(0)
+2018-06-19T01:55:48.601Z|00426|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3498115172 done(0)
+2018-06-19T01:55:48.601Z|00427|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2182272681 done(0)
+2018-06-19T01:55:48.601Z|00428|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3877344665 done(0)
+2018-06-19T01:55:48.601Z|00429|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3204003191 done(0)
+2018-06-19T01:55:48.602Z|00430|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3949288233 done(0)
+2018-06-19T01:55:48.602Z|00431|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3930407448 done(0)
+2018-06-19T01:55:48.602Z|00432|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3883786890 done(0)
+2018-06-19T01:55:48.602Z|00433|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=2997178070 done(0)
+2018-06-19T01:55:48.602Z|00434|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=1, pid=3293819769 done(0)
+2018-06-19T01:55:48.602Z|00435|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:428, type=28(ovs_flow), flags=2[MULTI], seq=10, pid=7648,genl(cmd=1,version=1)
+2018-06-19T01:55:48.602Z|00436|dpif|DBG|system@ovs-system: flow_dump ufid:bdc749ff-1c73-4849-b132-e0ed6fb090a2 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(38),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3958, bytes:261228, used:0.482s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.603Z|00437|dpif|DBG|system@ovs-system: flow_dump ufid:4ff894e5-cf58-4c13-8534-f958dfd34579 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(14),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3961, bytes:261426, used:0.419s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.603Z|00438|dpif|DBG|system@ovs-system: flow_dump ufid:f3caaa26-dc71-4426-ba96-2cfd5f38f3c6 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(32),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=128.0.0.0/128.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3728, bytes:246048, used:0.507s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.603Z|00439|dpif|DBG|system@ovs-system: flow_dump ufid:51403716-c02c-4ffe-ac94-b7ca584ea83f recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(29),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3967, bytes:261822, used:0.247s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.603Z|00440|dpif|DBG|system@ovs-system: flow_dump ufid:6d341038-0a0b-4d7c-a171-51c1b63ed1be recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(22),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=0/0,tos=0/0,ttl=0/0,frag=no), packets:3960, bytes:261360, used:0.591s, actions:userspace(pid=3196691804,controller(reason=6,dont_send=0,continuation=0,recirc_id=49,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.603Z|00441|dpif|DBG|system@ovs-system: flow_dump ufid:dfd1aa6a-0178-426d-8095-a3719de3b3fb recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(45),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:0.767s, actions:userspace(pid=3636822165,controller(reason=6,dont_send=0,continuation=0,recirc_id=71,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.603Z|00442|dpif|DBG|system@ovs-system: flow_dump ufid:4380d9ff-062f-49f0-b6ba-bd2dd4af334d recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(47),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3951, bytes:260766, used:0.447s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.603Z|00443|dpif|DBG|system@ovs-system: flow_dump ufid:ba392bb9-618b-4ac7-b1d2-4dc15cd906a3 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(33),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3951, bytes:260766, used:0.423s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.603Z|00444|dpif|DBG|system@ovs-system: flow_dump ufid:bb7a50f9-cb41-4b55-89a5-1f8601edc8ca recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(41),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:1.120s, actions:userspace(pid=2423246999,controller(reason=6,dont_send=0,continuation=0,recirc_id=65,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.603Z|00445|dpif|DBG|system@ovs-system: flow_dump ufid:67669cc2-3336-4d79-a7f2-1bc9d69b0bad recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(16),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=128.0.0.0/128.0.0.0,proto=0/0,tos=0/0,ttl=0/0,frag=no), packets:3724, bytes:245784, used:0.176s, actions:userspace(pid=4171830993,controller(reason=6,dont_send=0,continuation=0,recirc_id=74,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.604Z|00446|dpif|DBG|system@ovs-system: flow_dump ufid:3ddc0039-598e-4bf9-af2f-977b7051b2f5 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(17),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3961, bytes:261426, used:0.144s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.604Z|00447|dpif|DBG|system@ovs-system: flow_dump ufid:cddda065-f2c6-4ebe-9580-6c36375bb044 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(54),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3961, bytes:261426, used:0.716s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.604Z|00448|dpif|DBG|system@ovs-system: flow_dump ufid:cf7fa7b8-46d4-49d9-aefc-bce3d2cfd7d4 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(32),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:1.272s, actions:userspace(pid=3963570754,controller(reason=6,dont_send=0,continuation=0,recirc_id=59,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.604Z|00449|dpif|DBG|system@ovs-system: flow_dump ufid:d172d9a7-b4bf-4403-a21c-1630802a8f84 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(50),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3962, bytes:261492, used:0.276s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.604Z|00450|dpif|DBG|system@ovs-system: flow_dump ufid:61242758-25ee-42c4-ac4d-ca8f126e9591 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(45),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3960, bytes:261360, used:0.061s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.605Z|00451|dpif|DBG|system@ovs-system: flow_dump ufid:35fc00ec-067e-4d17-aba1-fae6159102a1 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(57),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=128.0.0.0/128.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3736, bytes:246576, used:0.257s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.605Z|00452|dpif|DBG|system@ovs-system: flow_dump ufid:f75ccd52-ed27-465d-9480-bba02f92a740 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(40),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:0.369s, actions:userspace(pid=2279212756,controller(reason=6,dont_send=0,continuation=0,recirc_id=72,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.605Z|00453|dpif|DBG|system@ovs-system: flow_dump ufid:fde15c8f-ae3d-4e64-9f25-6b8adab5ef7a recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(18),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:2.129s, actions:userspace(pid=2479595949,controller(reason=6,dont_send=0,continuation=0,recirc_id=68,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.605Z|00454|dpif|DBG|system@ovs-system: flow_dump ufid:387a0280-3714-4188-8e79-22b1e352c015 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(27),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=128.0.0.0/128.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3725, bytes:245850, used:0.629s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.605Z|00455|dpif|DBG|system@ovs-system: flow_dump ufid:249d9926-f5e8-4250-b594-1742b5f7d3f4 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(28),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3968, bytes:261888, used:0.249s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.605Z|00456|dpif|DBG|system@ovs-system: flow_dump ufid:34351e2e-077c-4980-a179-b6a276257a6a recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(28),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:0.870s, actions:userspace(pid=3717464385,controller(reason=6,dont_send=0,continuation=0,recirc_id=69,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.605Z|00457|dpif|DBG|system@ovs-system: flow_dump ufid:ecdccccd-ab4b-4e3d-9b50-ff0540daa53b recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(50),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:0.218s, actions:userspace(pid=2889631076,controller(reason=6,dont_send=0,continuation=0,recirc_id=53,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.606Z|00458|dpif|DBG|system@ovs-system: flow_dump ufid:28b92cd2-60bc-4fc6-907c-2603142a6ba8 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(44),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:1.222s, actions:userspace(pid=2324809023,controller(reason=6,dont_send=0,continuation=0,recirc_id=62,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.606Z|00459|dpif|DBG|system@ovs-system: flow_dump ufid:2bfd5455-20ed-4769-a128-62d1dc40add4 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(13),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3947, bytes:260502, used:0.982s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.606Z|00460|dpif|DBG|system@ovs-system: flow_dump ufid:e18462d8-1254-406b-9912-a102d55ab244 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(26),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3967, bytes:261822, used:0.814s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.606Z|00461|dpif|DBG|system@ovs-system: flow_dump ufid:41042819-2002-446c-a466-0ef7d9494a83 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(25),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1320, bytes:79200, used:2.346s, actions:userspace(pid=3469311112,controller(reason=6,dont_send=0,continuation=0,recirc_id=46,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.606Z|00462|dpif|DBG|system@ovs-system: flow_dump ufid:6c6d9897-31b6-47a4-9834-b50f340942c8 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(43),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:0.718s, actions:userspace(pid=3887587835,controller(reason=6,dont_send=0,continuation=0,recirc_id=66,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.606Z|00463|dpif|DBG|system@ovs-system: flow_dump ufid:78a7de9e-e17f-4b83-94da-dd7770adf61e recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(17),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:2.294s, actions:userspace(pid=2433096292,controller(reason=6,dont_send=0,continuation=0,recirc_id=47,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.606Z|00464|dpif|DBG|system@ovs-system: flow_dump ufid:0a725999-34be-4029-b7a7-6a210b428cf7 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(54),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1323, bytes:79380, used:0.671s, actions:userspace(pid=3881116084,controller(reason=6,dont_send=0,continuation=0,recirc_id=52,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.607Z|00465|dpif|DBG|system@ovs-system: flow_dump ufid:d2af0dc8-c584-4366-9678-1c695933ecba recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(33),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:0.923s, actions:userspace(pid=3269008494,controller(reason=6,dont_send=0,continuation=0,recirc_id=63,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.607Z|00466|dpif|DBG|system@ovs-system: flow_dump ufid:36fed07d-5cef-483d-a6d8-57ca271781db recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(16),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:0.619s, actions:userspace(pid=4171830993,controller(reason=6,dont_send=0,continuation=0,recirc_id=74,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.607Z|00467|dpif|DBG|system@ovs-system: flow_dump ufid:4029531e-b57b-4846-8d74-cb1ac897b274 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(43),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3965, bytes:261690, used:0.151s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.607Z|00468|dpif|DBG|system@ovs-system: flow_dump ufid:200ba179-f542-4e6d-bfef-782aebcc8cd7 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(41),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3952, bytes:260832, used:0.323s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.607Z|00469|dpif|DBG|system@ovs-system: flow_dump ufid:abc73f7e-b173-4a99-8789-65f6f0afdbba recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(24),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:2.392s, actions:userspace(pid=2452979503,controller(reason=6,dont_send=0,continuation=0,recirc_id=55,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.608Z|00470|dpif|DBG|system@ovs-system: flow_dump ufid:08a67db5-0f3f-4c30-900c-a64d186d7807 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(23),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3957, bytes:261162, used:0.408s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.608Z|00471|dpif|DBG|system@ovs-system: flow_dump ufid:9685c298-60cf-4836-b4c4-23d34a8b5734 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(27),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:0.572s, actions:userspace(pid=3376823748,controller(reason=6,dont_send=0,continuation=0,recirc_id=40,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.608Z|00472|dpif|DBG|system@ovs-system: flow_dump ufid:10323fe5-fafc-4094-85f3-a9d1b82fa17f recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(56),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:0.520s, actions:userspace(pid=3588856675,controller(reason=6,dont_send=0,continuation=0,recirc_id=35,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.608Z|00473|dpif|DBG|system@ovs-system: flow_dump ufid:293bc509-05f9-48f8-ab8e-1ca0551dda7d recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(19),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1323, bytes:79380, used:0.420s, actions:userspace(pid=2664023320,controller(reason=6,dont_send=0,continuation=0,recirc_id=39,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.608Z|00474|dpif|DBG|system@ovs-system: flow_dump ufid:f31afd28-c318-493d-8925-fc798f168f66 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(51),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1323, bytes:79380, used:1.600s, actions:userspace(pid=3484364373,controller(reason=6,dont_send=0,continuation=0,recirc_id=45,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.608Z|00475|dpif|DBG|system@ovs-system: flow_dump ufid:3e6b402a-ce4d-4701-bc9b-83d12581b5c7 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(37),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:0.169s, actions:userspace(pid=3117643943,controller(reason=6,dont_send=0,continuation=0,recirc_id=43,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.608Z|00476|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:380, type=28(ovs_flow), flags=2[MULTI], seq=10, pid=7648,genl(cmd=1,version=1)
+2018-06-19T01:55:48.609Z|00477|dpif|DBG|system@ovs-system: flow_dump ufid:fd55e0fe-3093-40b2-b592-c5973f51a6d7 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(42),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:1.303s, actions:userspace(pid=3902543691,controller(reason=6,dont_send=0,continuation=0,recirc_id=60,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.609Z|00478|dpif|DBG|system@ovs-system: flow_dump ufid:cac0d654-8b23-4746-bb64-76ffa1662064 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(20),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:1.971s, actions:userspace(pid=3810281164,controller(reason=6,dont_send=0,continuation=0,recirc_id=64,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.609Z|00479|dpif|DBG|system@ovs-system: flow_dump ufid:e726ab6f-061a-4043-8cd8-0e56512d8dda recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(53),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1323, bytes:79380, used:0.271s, actions:userspace(pid=2994737664,controller(reason=6,dont_send=0,continuation=0,recirc_id=58,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.609Z|00480|dpif|DBG|system@ovs-system: flow_dump ufid:b11fcd57-4fc1-4406-87fe-a4a73eabcc73 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(44),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3957, bytes:261162, used:0.595s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.609Z|00481|dpif|DBG|system@ovs-system: flow_dump ufid:101257e9-8b8b-408e-86de-a549628706a1 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(24),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3950, bytes:260700, used:0.571s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.609Z|00482|dpif|DBG|system@ovs-system: flow_dump ufid:5cba01c8-a6f5-467f-893b-5b616a6fbd0d recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(56),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=128.0.0.0/128.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3724, bytes:245784, used:0.408s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.609Z|00483|dpif|DBG|system@ovs-system: flow_dump ufid:43ccd76b-9b74-478c-af0b-7ed944af4dfb recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(46),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3969, bytes:261954, used:0.572s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.610Z|00484|dpif|DBG|system@ovs-system: flow_dump ufid:4f1be4ab-d228-44c7-8aeb-0dd159f55c92 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(22),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:1.556s, actions:userspace(pid=3196691804,controller(reason=6,dont_send=0,continuation=0,recirc_id=49,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.610Z|00485|dpif|DBG|system@ovs-system: flow_dump ufid:2e58aaf7-78d6-4b86-8b04-d9932d276f12 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(12),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:2.556s, actions:userspace(pid=3451925325,controller(reason=6,dont_send=0,continuation=0,recirc_id=51,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.610Z|00486|dpif|DBG|system@ovs-system: flow_dump ufid:99452c17-a997-4535-94e5-d14a3c6366ac recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(35),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:0.828s, actions:userspace(pid=2327531158,controller(reason=6,dont_send=0,continuation=0,recirc_id=73,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.610Z|00487|dpif|DBG|system@ovs-system: flow_dump ufid:085ec937-56fa-4e82-a50d-32543a5e58f4 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(31),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:1.076s, actions:userspace(pid=3429787080,controller(reason=6,dont_send=0,continuation=0,recirc_id=44,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.610Z|00488|dpif|DBG|system@ovs-system: flow_dump ufid:4eff6960-6883-4004-92ab-3749280d3b20 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(14),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:0.124s, actions:userspace(pid=3129067122,controller(reason=6,dont_send=0,continuation=0,recirc_id=37,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.610Z|00489|dpif|DBG|system@ovs-system: flow_dump ufid:32cc3f80-369d-4326-9990-bad2dac3a7d5 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(59),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=0/0,tos=0/0,ttl=0/0,frag=no), packets:3957, bytes:261162, used:0.024s, actions:userspace(pid=4127438831,controller(reason=6,dont_send=0,continuation=0,recirc_id=41,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.610Z|00490|dpif|DBG|system@ovs-system: flow_dump ufid:bbb14229-6175-4200-bafd-f9fb9e775a15 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(12),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3964, bytes:261624, used:0.061s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.610Z|00491|dpif|DBG|system@ovs-system: flow_dump ufid:5b4f03db-bb1f-43e4-b29c-2b05fcf6942c recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(46),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:0.025s, actions:userspace(pid=2202872880,controller(reason=6,dont_send=0,continuation=0,recirc_id=42,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.611Z|00492|dpif|DBG|system@ovs-system: flow_dump ufid:dba23592-20d0-454c-a020-4edc6ac92f9d recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(57),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:2.449s, actions:userspace(pid=4237709402,controller(reason=6,dont_send=0,continuation=0,recirc_id=57,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.611Z|00493|dpif|DBG|system@ovs-system: flow_dump ufid:bed6ce5a-e23c-4b87-9825-5393c2405d1f recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(37),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3966, bytes:261756, used:0.757s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.611Z|00494|dpif|DBG|system@ovs-system: flow_dump ufid:1442e794-acae-46fc-8e7d-b8cfc4a0579f recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(34),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:0.477s, actions:userspace(pid=2423871251,controller(reason=6,dont_send=0,continuation=0,recirc_id=70,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.611Z|00495|dpif|DBG|system@ovs-system: flow_dump ufid:bdfae301-423f-4936-9259-ecc6571670ad recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(13),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1320, bytes:79200, used:2.253s, actions:userspace(pid=2989650771,controller(reason=6,dont_send=0,continuation=0,recirc_id=38,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.611Z|00496|dpif|DBG|system@ovs-system: flow_dump ufid:5f610691-94d3-4f0c-a985-a05d689dfdb3 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(18),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3973, bytes:262218, used:0.113s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.611Z|00497|dpif|DBG|system@ovs-system: flow_dump ufid:23544208-ae82-4de2-be42-89ad888c3de0 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(35),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3966, bytes:261756, used:0.149s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.611Z|00498|dpif|DBG|system@ovs-system: flow_dump ufid:1bb2a0da-3e0c-4a4e-ac6c-433dd75b3e25 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(29),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:2.505s, actions:userspace(pid=3913107451,controller(reason=6,dont_send=0,continuation=0,recirc_id=61,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.611Z|00499|dpif|DBG|system@ovs-system: flow_dump ufid:d8d6ad96-3e31-464c-9a66-1ca944adcaef recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(19),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3957, bytes:261162, used:0.118s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.612Z|00500|dpif|DBG|system@ovs-system: flow_dump ufid:4d576335-64a2-48d2-b0ff-8887a72bccbe recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(58),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1320, bytes:79200, used:1.374s, actions:userspace(pid=3121417721,controller(reason=6,dont_send=0,continuation=0,recirc_id=56,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.612Z|00501|dpif|DBG|system@ovs-system: flow_dump ufid:34ab3a2d-9874-478c-8600-c6185789f200 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(53),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3962, bytes:261492, used:0.418s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.612Z|00502|dpif|DBG|system@ovs-system: flow_dump ufid:9eccd544-4468-4dd3-8884-f7b48e28c13d recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(51),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3963, bytes:261558, used:0.370s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.612Z|00503|dpif|DBG|system@ovs-system: flow_dump ufid:402853d7-5212-4f4f-903d-8ac63f97634a recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(47),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:0.978s, actions:userspace(pid=2279415058,controller(reason=6,dont_send=0,continuation=0,recirc_id=54,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.612Z|00504|dpif|DBG|system@ovs-system: flow_dump ufid:e359d083-c0f7-4efe-b0f5-59afcb5eeac3 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(34),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=0/0,tos=0/0,ttl=0/0,frag=no), packets:3961, bytes:261426, used:0.494s, actions:userspace(pid=2423871251,controller(reason=6,dont_send=0,continuation=0,recirc_id=70,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.612Z|00505|dpif|DBG|system@ovs-system: flow_dump ufid:f612d782-68d2-4ecb-9be0-e686d60c867f recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(23),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:0.326s, actions:userspace(pid=2725343054,controller(reason=6,dont_send=0,continuation=0,recirc_id=50,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.612Z|00506|dpif|DBG|system@ovs-system: flow_dump ufid:185f1446-f928-4c4a-8ba1-93db97952730 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(42),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3953, bytes:260898, used:0.167s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.613Z|00507|dpif|DBG|system@ovs-system: flow_dump ufid:dd18b208-4dbf-46fe-b547-9a95ae5243c9 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(15),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:1.031s, actions:userspace(pid=3010420107,controller(reason=6,dont_send=0,continuation=0,recirc_id=36,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.613Z|00508|dpif|DBG|system@ovs-system: flow_dump ufid:6781734e-d957-4918-9858-32f71104bc74 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(25),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:00:00:00:00:00/00:00:00:00:00:00),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3963, bytes:261558, used:0.083s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.613Z|00509|dpif|DBG|system@ovs-system: flow_dump ufid:5d0f5ffc-f95b-49da-98d4-d91e03ec51bc recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(38),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1321, bytes:79260, used:0.075s, actions:userspace(pid=2884835263,controller(reason=6,dont_send=0,continuation=0,recirc_id=67,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.613Z|00510|dpif|DBG|system@ovs-system: flow_dump ufid:2fff3bc2-c2dc-4566-b7bc-9cc86cac45be recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(26),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1319, bytes:79140, used:1.483s, actions:userspace(pid=2626137274,controller(reason=6,dont_send=0,continuation=0,recirc_id=48,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.613Z|00511|dpif|DBG|system@ovs-system: flow_dump ufid:3d623dea-fc72-419e-b630-e956c868d594 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(59),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=01:80:c2:00:00:0e),eth_type(0x88cc), packets:1322, bytes:79320, used:2.199s, actions:userspace(pid=4127438831,controller(reason=6,dont_send=0,continuation=0,recirc_id=41,rule_cookie=0,controller_id=0,max_len=65535))
+2018-06-19T01:55:48.613Z|00512|dpif|DBG|system@ovs-system: flow_dump ufid:ecf81b23-6438-4dd4-8f24-7e80260665c8 recirc_id(0),dp_hash(0/0),skb_priority(0/0),in_port(40),skb_mark(0/0),ct_state(0/0),ct_zone(0/0),ct_mark(0/0),ct_label(0/0),eth(src=00:00:00:00:00:00/00:00:00:00:00:00,dst=00:23:20:00:00:01),eth_type(0x0800),ipv4(src=0.0.0.0/0.0.0.0,dst=0.0.0.0/0.0.0.0,proto=17,tos=0/0,ttl=0/0,frag=no),udp(src=0/0,dst=3784), packets:3967, bytes:261822, used:0.871s, actions:userspace(pid=2600447495,slow_path(bfd))
+2018-06-19T01:55:48.613Z|00513|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=10, pid=7648 done(0)
+2018-06-19T01:55:48.613Z|00514|dpif|DBG|system@ovs-system: dumped all flows
+2018-06-19T01:55:48.614Z|00515|dpif|DBG|system@ovs-system: flow_dump_destroy success
+2018-06-19T01:55:48.614Z|00516|netlink_socket|DBG|nl_sock_send__ (Success): nl(len:24, type=27(ovs_vport), flags=30d[REQUEST][ACK][ECHO][DUMP], seq=11, pid=7648,genl(cmd=3,version=1)
+2018-06-19T01:55:48.614Z|00517|dpif|DBG|system@ovs-system: port_dump_start success
+2018-06-19T01:55:48.614Z|00518|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:140, type=27(ovs_vport), flags=2[MULTI], seq=11, pid=7648,genl(cmd=1,version=1)
+2018-06-19T01:55:48.614Z|00519|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.614Z|00520|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.614Z|00521|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.614Z|00522|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.614Z|00523|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.614Z|00524|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.614Z|00525|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00526|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00527|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00528|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00529|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00530|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00531|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00532|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00533|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00534|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00535|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00536|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00537|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00538|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.615Z|00539|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00540|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00541|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00542|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00543|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00544|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00545|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00546|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00547|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00548|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00549|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00550|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00551|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00552|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00553|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00554|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.616Z|00555|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00556|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00557|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00558|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00559|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00560|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00561|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00562|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00563|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00564|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00565|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00566|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00567|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.617Z|00568|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00569|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00570|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00571|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00572|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00573|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00574|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00575|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00576|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00577|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00578|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00579|dpif|DBG|system@ovs-system: port_dump_next success
+2018-06-19T01:55:48.618Z|00580|netlink_socket|DBG|nl_sock_recv__ (Success): nl(len:20, type=3(done), flags=2[MULTI], seq=11, pid=7648 done(0)
+2018-06-19T01:55:48.618Z|00581|dpif|DBG|system@ovs-system: dumped all ports
